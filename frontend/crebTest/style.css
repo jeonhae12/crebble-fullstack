@@ -31,6 +31,13 @@ body {
   background-color: white;
 }
 
+.container {
+  /* width: 700px; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+}
+
 article {
   padding-top: 200px;
   padding-bottom: 200px;
@@ -174,3 +181,22 @@ a:hover {
 a:active {
   background-color: white;
 }
+
+nav a:link:first-child {
+  margin-left: 0;
+}
+
+nav a:link {
+  /* background-color: red; */
+  margin: 20px;
+  /* display: block; */
+  display: inline-block;
+}
+
+/* button {
+  font-size: 22px;
+  position: relative;
+  bottom: 50px;
+  right: 50px;
+  /* top: 0;
+  bottom: 0; */
