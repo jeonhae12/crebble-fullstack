@@ -182,6 +182,10 @@ ul {
   /* margin-bottom: 20px; */
   margin-left: 200px;
   margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(31, 31, 31);
 }
 
 .ul1-keyList {
@@ -191,6 +195,10 @@ ul {
 .ul-2 {
   margin-left: 200px;
   margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(31, 31, 31);
 }
 
 .ul2-keyList {
@@ -201,6 +209,10 @@ ul {
   margin-left: 200px;
   margin-bottom: 20px;
   width: 500px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(31, 31, 31);
 }
 
 .ul3-keyList {
