@@ -48,10 +48,10 @@
   border-style: solid;
 }
 
-aside {
+/* aside {
   background-color: #f7f7f7;
   border-top: 5px solid #f7f7f7;
-}
+} */
 
 body {
   background-color: white;
@@ -315,4 +315,61 @@ nav a:link {
   align-items: center;
   /* width: 100%; */
   /* background-color: #f7f7f7; */
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #f7f7f7;
+}
+/* 
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  grid-column: 1 / -1;
+} */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(
+    2,
+    1fr
+  ); /* Adjust number of columns as needed */
+  grid-gap: 20px; /* Space between grid items */
+  padding: 20px;
+  max-width: 1200px; /* Adjust based on your layout's maximum width */
+  margin: 0 auto; /* Center the grid horizontally */
+}
+
+.feature-item {
+  background-color: #f7f7f7;
+  border: 1px solid #e0e0e0; /* You can adjust the border color as needed */
+  padding: 16px;
+  text-align: center; /* Center the text and image */
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-item img {
+  width: 75px;
+  height: 75px;
+  margin-bottom: 10px; /* Spacing between image and heading */
+}
+
+.feature-item h4 {
+  margin: 10px 0; /* Spacing around the heading */
+}
+
+.feature-item p {
+  color: #555; /* Adjust the text color as needed */
+  font-size: 0.875em; /* Adjust the font size as needed */
+}
+
+.h4-container {
+  margin-left: 100px;
+  text-align: left;
+}
+
+.p-container {
+  margin-left: 100px;
+  text-align: left;
 }
