@@ -1,0 +1,89 @@
+# Dependency directories
+/node_modules/
+/vendor/
+
+# Environment configuration files
+.env
+.env.local
+.env.*.local
+
+# Log files
+*.log
+*.log.*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Build directories
+/dist/
+/build/
+/out/
+
+# Compiled files
+*.o
+*.pyc
+*.class
+*.dll
+*.exe
+*.so
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+*.temp
+*.tlog
+
+# IDE specific files
+/.idea/
+/.vscode/
+*.sublime-project
+*.sublime-workspace
+*.esproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.unityproj
+*.booproj
+*.xcodeproj
+*.xcuserdata/
+
+# Editor config files
+.editorconfig
+
+# Package lock files
+yarn.lock
+package-lock.json
+composer.lock
+
+# Debug files
+*.pdb
+*.out
+
+# Grunt intermediate storage
+/.grunt/
+
+# If using Bower
+/bower_components/
+
+# Jekyll build output
+/_site/
+
+# If using macOS
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
