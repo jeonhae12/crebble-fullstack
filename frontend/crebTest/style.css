@@ -7,7 +7,7 @@
   padding-bottom: 85px;
   margin-left: 100px;
   display: flex;
-  margin-top: 50px;
+  margin-top: 80px;
   /* padding-left: 20px;
   padding-right: 40px;
   padding: 20px 40 px; */
@@ -98,12 +98,14 @@ p {
 .h1-midtag {
   font-size: 40px;
   width: 500px;
+  margin-left: 100px;
 }
 
 .p1-tag {
   margin-top: 30px;
-  font-size: 25px;
+  font-size: 22px;
   width: 500px;
+  margin-left: 100px;
   /* text-align: left; */
 }
 
