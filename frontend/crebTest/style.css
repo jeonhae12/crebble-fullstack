@@ -231,9 +231,12 @@ ul {
   background-color: #f7f7f7;
   /* background-color: #f76d6d; */
 
-/* nav {
-  margin-right: 50px;
-} */
+nav {
+  /* margin-right: 50px; */
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
 
 a:link {
   color: rgb(27, 28, 28);
