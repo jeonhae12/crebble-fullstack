@@ -287,7 +287,7 @@ nav a:link {
 /* text-align: right; */
 
 /* FLEX */
-.test {
+.firstflex {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -307,4 +307,12 @@ nav a:link {
   width: 700px;
   height: auto;
   object-fit: contain;
+}
+
+.secondflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 100%; */
+  /* background-color: #f7f7f7; */
 }
