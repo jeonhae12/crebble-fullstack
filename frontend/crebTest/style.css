@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .main-header {
@@ -22,6 +23,8 @@
   width: 500px;
   height: auto;
   float: right;
+  /* box-sizing: border-box;
+  padding-left: 40px; */
   /* display: flex; */
   /* text-align: right; */
 }
@@ -208,3 +211,15 @@ nav a:link {
   right: 50px;
   /* top: 0;
   bottom: 0; */
+
+/* article {
+  background-color: green;
+}
+
+aside {
+  background-color: red;
+}
+
+footer {
+  background-color: blue;
+} */
