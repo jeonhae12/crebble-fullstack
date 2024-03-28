@@ -48,6 +48,22 @@ body {
 article {
   padding-top: 200px;
   padding-bottom: 200px;
+  margin-bottom: 200px;
+}
+
+.key-details1 {
+  float: left;
+  margin-left: 30px;
+}
+
+.key-details2 {
+  float: left;
+  margin-left: 30px;
+}
+
+.key-details3 {
+  float: left;
+  margin-left: 30px;
 }
 
 h1,
@@ -147,15 +163,32 @@ ul {
 }
 
 .ul-1 {
+  /* margin-bottom: 20px; */
+  margin-left: 200px;
   margin-bottom: 20px;
+}
+
+.ul1-keyList {
+  margin-left: 200px;
 }
 
 .ul-2 {
+  margin-left: 200px;
   margin-bottom: 20px;
 }
 
+.ul2-keyList {
+  margin-left: 200px;
+}
+
 .ul-3 {
+  margin-left: 200px;
   margin-bottom: 20px;
+  width: 500px;
+}
+
+.ul3-keyList {
+  margin-left: 200px;
 }
 
 .related-bullets {
