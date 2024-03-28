@@ -21,6 +21,8 @@
 .mid-image {
   width: 500px;
   height: auto;
+  float: right;
+  /* display: flex; */
   /* text-align: right; */
 }
 
