@@ -29,6 +29,27 @@
   /* text-align: right; */
 }
 
+.get-started {
+  background-color: rgb(33, 135, 238);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 20px;
+  border: rgb(33, 135, 238);
+  border-radius: 4px;
+  margin-left: 100px;
+  margin-top: 55px;
+
+  /* width: auto; */
+}
+
+.get-started:hover {
+  background-color: #fff;
+  color: black;
+  border: black;
+  border-style: solid;
+}
+
 aside {
   background-color: #f7f7f7;
   border-top: 5px solid #f7f7f7;
