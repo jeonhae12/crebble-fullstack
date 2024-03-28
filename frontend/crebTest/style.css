@@ -9,25 +9,12 @@
   margin-left: 100px;
   display: flex;
   margin-top: 80px;
-  /* padding-left: 20px;
-  padding-right: 40px;
-  padding: 20px 40 px; */
 }
 
-.mid-header {
+/* .mid-header {
   background-color: #f7f7f7;
   padding: 70px;
-}
-
-.mid-image {
-  width: 500px;
-  height: auto;
-  float: right;
-  /* box-sizing: border-box;
-  padding-left: 40px; */
-  /* display: flex; */
-  /* text-align: right; */
-}
+} */
 
 .get-started {
   background-color: rgb(24, 118, 212);
@@ -40,7 +27,7 @@
   padding-bottom: 20px;
   border: 2px solid transparent;
   border-radius: 4px;
-  margin-left: 100px;
+  /* margin-left: 100px; */
   margin-top: 55px;
 
   /* width: auto; */
@@ -73,21 +60,6 @@ article {
   padding-top: 200px;
   padding-bottom: 200px;
   margin-bottom: 200px;
-}
-
-.key-details1 {
-  float: left;
-  margin-left: 30px;
-}
-
-.key-details2 {
-  float: left;
-  margin-left: 30px;
-}
-
-.key-details3 {
-  float: left;
-  margin-left: 30px;
 }
 
 h1,
@@ -142,13 +114,14 @@ p {
   font-size: 40px;
   width: 500px;
   margin-left: 100px;
+  margin-right: 200px;
 }
 
 .p1-tag {
   margin-top: 30px;
   font-size: 22px;
   width: 500px;
-  margin-left: 100px;
+  /* margin-left: 100px; */
   /* text-align: left; */
 }
 
@@ -255,7 +228,6 @@ nav a:link:first-child {
 }
 
 nav a:link {
-  /* background-color: red; */
   margin: 20px;
   /* display: block; */
   display: inline-block;
@@ -269,14 +241,50 @@ nav a:link {
   /* top: 0;
   bottom: 0; */
 
-/* article {
-  background-color: green;
+/* FLOATS */
+
+/* .key-details1 {
+  float: left;
+  margin-left: 30px;
 }
 
-aside {
-  background-color: red;
+.key-details2 {
+  float: left;
+  margin-left: 30px;
 }
 
-footer {
-  background-color: blue;
-} */
+.key-details3 {
+  float: left;
+  margin-left: 30px;
+}
+.mid-image {
+  width: 500px;
+  height: auto;
+  float: right;
+  /* box-sizing: border-box;
+  padding-left: 40px; */
+/* display: flex; */
+/* text-align: right; */
+
+/* FLEX */
+.test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #f7f7f7;
+}
+.mid-image {
+  flex: 0 1 auto;
+  /* width: auto; */
+  /* margin-left: 500px; */
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.mid-header img {
+  /* max-width: 100%; */
+  width: 700px;
+  height: auto;
+  object-fit: contain;
+}
