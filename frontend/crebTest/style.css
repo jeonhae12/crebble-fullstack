@@ -19,16 +19,17 @@
 .get-started {
   background-color: rgb(24, 118, 212);
   color: #fff;
-  font-size: 17px;
+  font-size: 15px;
   cursor: pointer;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   border: 2px solid transparent;
   border-radius: 4px;
   /* margin-left: 100px; */
   margin-top: 55px;
+  margin-bottom: 30px;
   /* font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal; */
@@ -65,7 +66,7 @@ body {
 }
 
 article {
-  padding-top: 200px;
+  padding-top: 100px;
   padding-bottom: 200px;
   /* margin-bottom: 200px; */
 }
@@ -131,6 +132,8 @@ p {
   font-family: "Lato", sans-serif;
   font-weight: 700;
   font-style: normal;
+  margin-top: 100px;
+  margin-bottom: 200px;
 }
 
 .p1-tag {
@@ -332,6 +335,7 @@ nav a:link {
   width: 700px;
   height: auto;
   object-fit: contain;
+  margin-bottom: 80px;
 }
 
 .secondflex {
@@ -367,7 +371,8 @@ nav a:link {
 }
 
 .feature-item {
-  background-color: #f7f7f7;
+  /* background-color: #f7f7f7; */
+  background-color: #fbfbfb;
   border: 1px solid #e0e0e0; /* You can adjust the border color as needed */
   padding: 16px;
   text-align: center; /* Center the text and image */
