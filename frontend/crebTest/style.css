@@ -154,18 +154,28 @@ article li {
   margin-bottom: 20px;
 }
 
-/* footer p {
+footer p {
   font-size: 16px;
-} */
+  margin: 0;
+}
 
 footer {
   margin-top: 200px;
-  margin-left: 20px;
-  margin-bottom: 40px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0px;
+  background-color: #000;
+  padding: 80px 20px;
+  margin-top: auto;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  color: #d4d1d1;
 }
 
 #copyright {
-  font-size: 16px;
+  font-size: 12px;
+  color: #d4d1d1;
 }
 
 .related-description {
@@ -353,6 +363,7 @@ nav a:link {
   padding: 20px;
   max-width: 1200px; /* Adjust based on your layout's maximum width */
   margin: 0 auto; /* Center the grid horizontally */
+  margin-bottom: 130px;
 }
 
 .feature-item {
@@ -410,4 +421,20 @@ nav a:link {
 aside {
   width: 100%;
   display: block;
+}
+
+.footer-styling {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  color: #fff;
+}
+
+.footer-Pstyle {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  color: #d4d1d1;
+  margin-bottom: 100px;
+  margin-top: 20px;
 }
